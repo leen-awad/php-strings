@@ -123,7 +123,7 @@ echo $new_string."\n";
 // 14-Write a PHP script to get the first word of a sentence. Original String : 'The quick brown fox' Expected Output : 'The'
 
 
-
+$first="The quick brown fox";$arrayTest=explode(' ',trim($first));echo $arrayTest[0] ;echo "<br><br>";
 
 
 // 15-Write a PHP script to remove all leading zeroes from a string. Original String : '000547023.24' Expected Output : '547023.24
@@ -153,7 +153,8 @@ echo $file_name."\n";
 
 
 
-
+//19. Write a PHP script to replace Special characters from the following string.// Sample String : '"\1+2/32:2-3/43' //Expected Output : '1 2 3 2 2 3 4 3'echo "============ Q 19 ============ <br>";
+$str19='"\1+2/32:2-3/43';$str19Arrey=array('"','\\','/',':','-','+');$full19=str_replace($str19Arrey," ",$str19);echo $full19;echo "<br><br>";
 
 
 
